@@ -1,0 +1,10 @@
+bg-conic-to-bl from-purple-200 via-sky-600 to-zinc-900
+style={{background: "conic-gradient(at left top, rgb(14, 165, 233), rgb(254, 215, 170), rgb(202, 138, 4))"}}
+
+radial-gradient(at left top, rgb(255, 228, 230), rgb(244, 63, 94), rgb(8, 145, 178))
+
+bg-radial-at-tl from-rose-100 via-rose-500 to-cyan-600
+
+bg-conic from-sky-500 via-orange-200 to-yellow-600
+
+linear-gradient(to top, rgb(100, 116, 139), rgb(254, 249, 195))
