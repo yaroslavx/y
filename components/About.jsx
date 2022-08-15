@@ -24,7 +24,7 @@ function About() {
               Who I Am
             </p>
             <p className="flex text-[19px] font-medium text-white dark:text-[white]">
-            My name is Yaroslav, 21, still a student, looking for a part time job I can do while still at University, ideally working remotely. I’m skilled with React and some Python, and I am trying to learn other programming languages, step by step.
+            {`My name is Yaroslav, 21, still a student, looking for a part time job I can do while still at University, ideally working remotely. I'm skilled with React and some Python, and I am trying to learn other programming languages, step by step.`}
             </p>
             <div className="group">
             <IoIosAddCircle className="absolute right-2 bottom-2 h-9 w-9 cursor-pointer text-white duration-200 transition-colors ease-in-out group-hover:text-transparent" />

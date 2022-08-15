@@ -44,8 +44,8 @@ const Contact = () => {
               Yaroslav Yakupov
             </p>
             <p className="flex text-[19px] font-medium text-white dark:text-[white]">
-              If there anything else you’d like to know about my life at the moment, contact me
-              and let's talk. 
+              {`If there anything else you'd like to know about my life at the moment, contact me
+              and let's talk.`} 
               
             </p>
             <p className="flex text-[19px] font-medium text-white dark:text-[white]">
