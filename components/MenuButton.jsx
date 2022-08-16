@@ -1,5 +1,5 @@
 import * as React from "react";
-import Button from "@mui/material/Button";
+// import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Link from "next/link";
@@ -17,16 +17,16 @@ export default function MenuButton() {
 
   return (
     <div>
-      <Button
+      <button
         id="basic-button"
         aria-controls={open ? "basic-menu" : undefined}
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
-        className="!rounded-xl !bg-white !mr-5 !text-black  !transition !duration-200 !ease-in-out !hover:bg-gray-100 !dark:bg-black/20 !dark:hover:bg-[#222222] !dark:text-white"
+        className="w-16 h-9 rounded-xl bg-white text-black  transition duration-200 ease-in-out hover:bg-gray-100 dark:bg-black/20 dark:hover:bg-[#222222] dark:text-white"
       >
-        <RiMenuFill className="h-5 w-5" />
-      </Button>
+        <RiMenuFill className="h-5 w-fit mx-auto" />
+      </button>
       <Menu
         id="basic-menu"
         anchorEl={anchorEl}

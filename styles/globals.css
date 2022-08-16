@@ -32,7 +32,7 @@ html {
 
 
   .menu {
-    @apply md:hidden;
+    @apply md:hidden ;
   }
 
   .menu .MuiPaper-root {
