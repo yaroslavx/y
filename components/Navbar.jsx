@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
@@ -56,9 +55,11 @@ const Navbar = () => {
       <div className="flex h-full w-full items-center justify-between px-9 md:px-16">
         <Link href="/">
           <div className="flex cursor-pointer items-center rounded-xl bg-white pl-2.5 transition-all duration-200 ease-in-out  dark:bg-black/20">
-          <div className="text-transparent">__</div>
-              <div className="font-bold text-black text-5xl dark:text-white">Y</div>
-             <div className="text-transparent">_</div>
+            <div className="text-transparent">__</div>
+            <div className="text-5xl font-bold text-black dark:text-white">
+              Y
+            </div>
+            <div className="text-transparent">_</div>
           </div>
         </Link>
         <div className="flex items-center gap-x-5 md:gap-x-4">
@@ -100,7 +101,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="flex items-center gap-x-4 md:hidden ">
-              <MenuButton className=''/>
+              <MenuButton className="" />
             </div>
           </div>
         </div>

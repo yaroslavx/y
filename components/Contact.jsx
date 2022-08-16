@@ -34,23 +34,20 @@ const Contact = () => {
       id="contact"
       className="w-full bg-[#f5f5f7] pt-4 dark:bg-[#0c0c0c] dark:text-white md:pt-5"
     >
-      <p  className="mx-4 bg-gradient-radial-at-br from-sky-400 to-blue-500 bg-clip-text px-7 pt-9 pb-5 text-[56px]  font-semibold text-transparent md:mx-5">
+      <p className="mx-4 bg-gradient-radial-at-br from-sky-400 to-blue-500 bg-clip-text px-7 pt-9 pb-5 text-[48px] font-semibold  text-transparent sm:text-[56px] md:mx-5">
         Contact
       </p>
       <div className="m-auto w-full">
         <div className="mx-4 grid gap-4 md:mx-5 lg:grid-cols-5">
-          <div  className="relative h-[230px] lg:h-full col-span-3  w-full  rounded-3xl bg-gradient-radial-at-br from-sky-400 to-blue-500 px-7 py-9  dark:bg-[#151515] lg:col-span-2">
+          <div className="relative col-span-3 h-[305px] w-full  rounded-3xl  bg-gradient-radial-at-br from-sky-400 to-blue-500 px-7 py-9 dark:bg-[#151515]  lg:col-span-2 lg:h-full">
             <p className="text-[21px] font-semibold text-white dark:text-[white]">
               Yaroslav Yakupov
             </p>
             <p className="flex text-[19px] font-medium text-white dark:text-[white]">
               {`If there anything else you'd like to know about my life at the moment, contact me
-              and let's talk.`} 
-              
+              and let's talk.`}
             </p>
-            <p className="flex text-[19px] font-medium text-white dark:text-[white]">
-            
-            </p>
+            <p className="flex text-[19px] font-medium text-white dark:text-[white]"></p>
             {/* <div>
               <Image
                 className="rounded-xl duration-300 ease-in"
@@ -60,24 +57,21 @@ const Contact = () => {
             </div> */}
             <div className="absolute bottom-9 ">
               <div className=" flex items-center justify-evenly gap-x-4">
-                <a
-                  href="https://github.com/yaroslavx"
-                >
+                <a href="https://github.com/yaroslavx">
                   <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
-                    <FaGithub className="text-white h-5 w-5" />
+                    <FaGithub className="h-5 w-5 text-white" />
                   </div>
-          
                 </a>
 
-              <a href="https://t.me/yaroslavxx">
-                <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
-                  <FaTelegramPlane className="text-white h-5 w-5" />
-                </div>
+                <a href="https://t.me/yaroslavxx">
+                  <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
+                    <FaTelegramPlane className="h-5 w-5 text-white" />
+                  </div>
                 </a>
                 <Link href="/resume">
                   <a>
                     <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
-                      <AiOutlinePaperClip className="text-white h-5 w-5" />
+                      <AiOutlinePaperClip className="h-5 w-5 text-white" />
                     </div>
                   </a>
                 </Link>
@@ -133,11 +127,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center pb-[222px]">
-          {/* <Link href="/">
-            <div className="group cursor-pointer rounded-full bg-white p-3 transition-all ease-in-out hover:bg-gray-100 dark:bg-[#222222] dark:shadow-none dark:hover:bg-sky-500">
-              <ChevronUpIcon className="h-7 w-7 text-[#000000]/80 dark:text-white" />
-            </div>
-          </Link> */}
+  
         </div>
       </div>
     </div>

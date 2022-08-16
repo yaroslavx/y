@@ -28,7 +28,7 @@ const property = () => {
       </div>
 
       <div className="m-auto bg-white dark:bg-black">
-        <p className="mx-4 bg-gradient-to-tr from-orange-400 via-slate-800 to-amber-200 bg-clip-text px-7 pt-9 pb-5 text-[56px] font-semibold text-transparent md:mx-5 ">
+        <p className="mx-4 bg-gradient-to-tr from-orange-400 via-slate-800 to-amber-200 bg-clip-text px-7 pt-9 pb-5 text-[48px] sm:text-[56px] font-semibold text-transparent md:mx-5 ">
           Weather
         </p>
         <div className=" grid gap-4  px-4 md:grid-cols-5  md:gap-5 md:px-5">

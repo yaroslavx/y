@@ -23,7 +23,7 @@ export default function MenuButton() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
-        className="rounded-xl bg-white mr-5 text-black  transition duration-200 ease-in-out hover:bg-gray-100 dark:bg-black/20 dark:hover:bg-[#222222] dark:text-white"
+        className="!rounded-xl !bg-white !mr-5 !text-black  !transition !duration-200 !ease-in-out !hover:bg-gray-100 !dark:bg-black/20 !dark:hover:bg-[#222222] !dark:text-white"
       >
         <RiMenuFill className="h-5 w-5" />
       </Button>
