@@ -16,7 +16,7 @@ const property = () => {
           <div className="absolute top-0 left-0 z-10 h-[50vh] w-full" />
           <div className="relative h-full w-full">
             <Image
-              className=""
+              className="rounded-3xl"
               layout="fill"
               objectFit="cover"
               src={vidsPage}

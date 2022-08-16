@@ -108,7 +108,7 @@ const Projects = () => {
         </div>
         <div className="rounded-3xl text-center text-white md:col-span-1 md:row-span-2  md:row-start-2 md:mx-auto lg:col-span-1 lg:row-span-2 lg:row-start-1">
           <div className="relative flex h-[525px] rounded-3xl bg-transparent ">
-            <p className="absolute right-[234px] top-[140px] w-fit bg-gradient-to-l from-stone-400 via-green-400 to-sky-600 bg-clip-text px-4 py-3 text-4xl font-semibold text-transparent sm:right-[270px] sm:text-[48px] md:-top-2 md:left-0 md:text-[25px]">
+            <p className="absolute right-[250px] top-[140px] bg-gradient-to-l from-stone-400 via-green-400 to-sky-600 bg-clip-text py-3 text-4xl font-semibold text-transparent sm:right-[286px] sm:text-[48px] md:-top-2 md:left-0 md:text-[25px]">
               UPMI
             </p>
             <p className="absolute right-[250px] top-[171px] mt-8 py-3 text-end text-[19px] font-medium text-black dark:text-[white] sm:right-[286px] md:hidden">
