@@ -56,15 +56,15 @@ const Contact = () => {
               />
             </div> */}
             <div className="absolute bottom-9 ">
-              <div className=" flex items-center justify-evenly gap-x-4">
+              <div className=" flex items-center justify-evenly">
                 <a href="https://github.com/yaroslavx">
-                  <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
+                  <div className="cursor-pointer mr-4 rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
                     <FaGithub className="h-5 w-5 text-white" />
                   </div>
                 </a>
 
                 <a href="https://t.me/yaroslavxx">
-                  <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
+                  <div className="cursor-pointer mr-4 rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
                     <FaTelegramPlane className="h-5 w-5 text-white" />
                   </div>
                 </a>

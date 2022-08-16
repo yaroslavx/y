@@ -62,45 +62,45 @@ const Navbar = () => {
             <div className="text-transparent">_</div>
           </div>
         </Link>
-        <div className="flex items-center gap-x-5 md:gap-x-4">
+        <div className="flex items-center ">
           <ThemeChanger className="" />
-          <div>
+          <div className="ml-3 ">
             <ul
               style={{ color: `${linkColor}` }}
-              className="hidden gap-x-3 md:flex "
+              className="hidden md:flex "
             >
               <Link href="/">
-                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                <li className=" rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li className="rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   About
                 </li>
               </Link>
               <Link href="/#techstack">
-                <li className="rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Techstack
                 </li>
               </Link>
               <Link href="/#projects">
-                <li className="rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Projects
                 </li>
               </Link>
               <Link href="/resume">
-                <li className="rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Resume
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className="mr-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                <li className="ml-3 mr-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Contact
                 </li>
               </Link>
             </ul>
-            <div className="flex items-center gap-x-4 md:hidden ">
+            <div className="flex items-center md:hidden ">
               <MenuButton className="" />
             </div>
           </div>
