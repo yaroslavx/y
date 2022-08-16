@@ -3,7 +3,7 @@ import * as React from "react";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import Link from "next/link";
-import { RiMenuFill } from "react-icons/ri";
+import { MenuAlt4Icon } from "@heroicons/react/solid";
 
 export default function MenuButton() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -23,9 +23,9 @@ export default function MenuButton() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
-        className="w-16 h-9 rounded-xl bg-white text-black  transition duration-200 ease-in-out hover:bg-gray-100 dark:bg-black/20 dark:hover:bg-[#222222] dark:text-white"
+        className="w-16 h-9 rounded-xl bg-white-300 text-black  transition duration-200 ease-in-out hover:bg-gray-100 dark:bg-black/20 dark:hover:bg-[#222222] dark:text-white"
       >
-        <RiMenuFill className="h-5 w-fit mx-auto" />
+        <MenuAlt4Icon className="w-[23px] mx-auto text-black dark:text-white" ></MenuAlt4Icon>
       </button>
       <Menu
         id="basic-menu"
