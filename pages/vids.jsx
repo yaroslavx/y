@@ -28,7 +28,7 @@ const property = () => {
       </div>
 
       <div className="m-auto bg-white dark:bg-black">
-        <p className="mx-4 bg-gradient-to-tr from-slate-500 to-yellow-100 bg-clip-text px-7 pt-9 pb-5 text-[48px] sm:text-[56px] font-semibold text-transparent md:mx-5 ">
+        <p className="mx-4 w-fit  bg-gradient-to-tr from-slate-500 to-yellow-100 bg-clip-text px-7 pt-9 pb-5 text-[48px] sm:text-[56px] font-semibold text-transparent md:mx-5 ">
           Vids
         </p>
         <div className=" grid gap-4 px-4 md:grid-cols-5  md:gap-5 md:px-5">
@@ -55,7 +55,7 @@ const property = () => {
                 </div>
               </Link>
               <p className="flex text-[19px] font-medium text-white dark:text-[white]">
-                Vids is a video-gallery website that allows members to view some
+                Vids is a video-gallery website that allows you to view some
                 nice videos.
               </p>
               <div className="mt-9 flex gap-x-4">

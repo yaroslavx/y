@@ -6,10 +6,10 @@ const Skills = () => {
       id="techstack"
       className="w-full bg-[#f5f5f7] pt-4 dark:bg-[#0c0c0c]  dark:text-white md:h-fit md:pt-5"
     >
-      <p className="mx-4 bg-gradient-to-br from-zinc-400 via-sky-600 to-indigo-600 bg-clip-text px-7 pt-9 pb-5 text-[48px] font-semibold  text-transparent sm:text-[56px] md:mx-5">
+      <p className="mx-4 bg-gradient-to-br from-zinc-400 via-sky-600 to-indigo-600 bg-clip-text px-7 pt-9 pb-4 text-[48px] font-semibold  text-transparent sm:text-[56px] sm:mx-5 md:mx-7 lg:mx-9">
         Tech Stack
       </p>
-      <div className="m-auto mx-4 flex h-full flex-col justify-center rounded-xl bg-gradient-to-bl from-zinc-400 via-sky-600 to-indigo-600 px-7 py-9 pb-20 dark:bg-[#151515] md:mx-5">
+      <div className="m-auto mx-4 flex h-full flex-col justify-center rounded-xl bg-gradient-to-bl from-zinc-400 via-sky-600 to-indigo-600 px-7 py-9 pb-20 dark:bg-[#151515] sm:mx-5 md:mx-7 lg:mx-9">
         <p className="text-[21px] font-semibold text-white dark:text-[white]">
           My skills
         </p>

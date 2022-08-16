@@ -11,17 +11,19 @@ import weatherImg from "../public/assets/projects/weather.png";
 import upmiImg from "../public/assets/projects/upmi.png";
 import { IoIosAddCircle, IoIosAddCircleOutline } from "react-icons/io";
 
+// from-gray-500 via-gray-400 to-gray-700
+
 const Projects = () => {
   return (
     <div
       id="projects"
       className="w-full bg-[#f5f5f7] pt-4  dark:bg-[#0c0c0c] dark:text-white md:pt-5"
     >
-      <p className="mx-4 bg-gradient-radial-at-br from-gray-500 via-gray-400 to-gray-700 bg-clip-text px-7 pt-9 pb-5 text-[48px] font-semibold text-transparent sm:text-[56px]  md:mx-5">
+      <p className="mx-4 w-fit bg-gradient-radial-at-br from-fuchsia-600 via-violet-900 to-blue-700 bg-clip-text px-7 pt-9 pb-4 text-[48px] font-semibold text-transparent sm:text-[56px]  sm:mx-5 md:mx-7 lg:mx-9">
         Projects
       </p>
 
-      <div className="mx-4 grid gap-4 bg-[#f5f5f7] dark:bg-[#0c0c0c] md:mx-5 md:grid-flow-col md:grid-cols-2   md:grid-rows-4 md:gap-5 lg:grid-cols-4 lg:grid-rows-2">
+      <div className="mx-4 grid gap-4 sm:gap-5 md:gap-7 lg:gap-9 bg-[#f5f5f7] dark:bg-[#0c0c0c] sm:mx-5 md:mx-7 lg:mx-9 md:grid-flow-col md:grid-cols-2   md:grid-rows-4  lg:grid-cols-4 lg:grid-rows-2">
         <div className="hidden rounded-3xl text-center text-white md:col-span-2 md:row-span-1  md:row-start-1 lg:col-span-1 lg:row-span-2 lg:row-start-1 lg:inline">
           <ProjectItem
             title="Stream"
@@ -68,7 +70,7 @@ const Projects = () => {
             </div>
           </Link>
         </div>
-        <div className="rounded-3xl text-center text-white md:row-span-1 md:row-start-3 lg:col-span-1 lg:row-span-1 lg:row-start-2">
+        <div className="rounded-3xl lg:-mt-[11px] text-center text-white md:row-span-1 md:row-start-3 lg:col-span-1 lg:row-span-1 lg:row-start-2">
           <ProjectItem
             title="Weather App"
             description=""
