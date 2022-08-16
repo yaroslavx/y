@@ -55,8 +55,8 @@ const Contact = () => {
                 alt="/"
               />
             </div> */}
-            <div className="absolute bottom-9 ">
-              <div className=" flex items-center justify-evenly">
+            <div className="absolute bottom-9 w-full -ml-7">
+              <div className=" flex items-center justify-center">
                 <a href="https://github.com/yaroslavx">
                   <div className="cursor-pointer mr-4 rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
                     <FaGithub className="h-5 w-5 text-white" />
