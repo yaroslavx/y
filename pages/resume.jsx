@@ -49,7 +49,7 @@ const resume = () => {
               Technical Skills
             </h5>
             <p className="mt-1">
-              Front-End Web Developer HTML CSS React Tailwind Firebase
+              React Next.js React Native TypeScript Git Firebase GitLab GitHub REST API Redux Recoil Tailwind
             </p>
           </div>
           <div className="mt-5 text-center">

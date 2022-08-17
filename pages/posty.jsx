@@ -83,7 +83,7 @@ const property = () => {
               </p>
               <div className="flex">
                 <p className="flex text-[19px] font-medium text-black dark:text-white">
-                  Next.js, React, Firebase, Tailwind, Google Auth
+                  Next.js, React, Firebase, Tailwind, NextAuth, Recoil
                 </p>
               </div>
             </div>

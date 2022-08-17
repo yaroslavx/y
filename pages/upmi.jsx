@@ -81,7 +81,7 @@ const property = () => {
               </p>
               <div className="flex">
                 <p className="flex text-[19px] font-medium text-black dark:text-white">
-                  React Native, Google API
+                  React Native, Google API, Redux, Tailwind
                 </p>
               </div>
             </div>
