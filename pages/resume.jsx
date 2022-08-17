@@ -56,7 +56,7 @@ const resume = () => {
             <h5 className=" text-center text-[21px] font-semibold">
               Other Skills
             </h5>
-            <p className="mt-1">Figma Photoshaop Illustrator Autocad</p>
+            <p className="mt-1">Figma Photoshop Illustrator Autocad</p>
           </div>
 
           <h5 className="mt-5 text-center text-[21px] font-semibold">
@@ -141,7 +141,7 @@ const resume = () => {
             <h5 className="mt-1 text-center text-[21px] font-semibold">
               Languages
             </h5>
-            <p className="">Russian, English: B2 Advanced</p>
+            <p className="">Russian, English: C1 Advanced</p>
           </div>
 
           <div className="mt-5 text-center">
