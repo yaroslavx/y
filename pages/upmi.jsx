@@ -33,7 +33,7 @@ const property = () => {
         <p className="mx-4 w-fit bg-gradient-to-l from-stone-400 via-green-400 to-sky-600 bg-clip-text px-7 pt-9 pb-5 text-[48px] font-semibold text-transparent sm:mx-5 sm:text-[56px] md:mx-7 lg:mx-9">
           UPMI
         </p>
-        <div className=" mx-4 grid gap-4 sm:mx-5 sm:gap-5 md:mx-7  md:grid-cols-6 md:gap-7 lg:mx-9 lg:grid-cols-11 lg:gap-9">
+        <div className=" mx-4 grid gap-4 sm:mx-5 sm:gap-5 md:mx-7 grid-cols-4  md:grid-cols-6 md:gap-7 lg:mx-9 lg:grid-cols-11 lg:gap-9">
           <div className="col-span-4 md:col-span-4 lg:col-span-3">
             <div className="relative h-full rounded-3xl bg-gradient-to-tl from-green-400 to-sky-600 px-7 py-9  dark:bg-black ">
               <p className="text-[21px] font-semibold text-white dark:text-[white]">
@@ -102,7 +102,7 @@ const property = () => {
             </div>
           </div>
 
-          <div className="relative  col-span-2 mx-auto h-[380px] w-[190px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
+          <div className="relative  col-span-2 mx-auto h-[340px] w-[170px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
             <Image
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"
@@ -112,7 +112,7 @@ const property = () => {
               alt="/"
             />
           </div>
-          <div className="relative col-span-2 mx-auto h-[380px] w-[190px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
+          <div className="relative col-span-2 mx-auto h-[340px] w-[170px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
             <Image
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"

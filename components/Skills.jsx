@@ -14,31 +14,31 @@ const Skills = () => {
           My skills
         </p>
         <div className="relative mt-7 h-[430px] w-full transition-all duration-500 lg:ml-[3%] lg:h-56">
-          <div className="absolute left-[1%] top-[9%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 md:left-[11%] md:top-[9%] lg:left-[15%] ">
+          <div className="absolute left-[1%] top-[9%] h-fit w-fit rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white transition-all duration-500 md:left-[11%] md:top-[9%] lg:left-[15%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">Next.js</p>
           </div>
-          <div className="absolute left-[1%] top-[41%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 md:left-[5%] md:top-[41%] lg:left-[3%] ">
+          <div className="absolute left-[1%] top-[41%] h-fit w-fit rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white transition-all duration-500 md:left-[5%] md:top-[41%] lg:left-[3%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">React</p>
           </div>
-          <div className="absolute left-[1%] top-[75%] h-fit w-fit rounded-3xl text-[40px] text-white  transition-all duration-500 md:left-[17%] md:top-[75%] lg:top-[77%] ">
+          <div className="absolute left-[1%] top-[75%] h-fit w-fit rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white  transition-all duration-500 md:left-[17%] md:top-[75%] lg:top-[77%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">TypeScript</p>
           </div>
-          <div className="absolute left-[53%] top-[0%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 sm:left-[61%] md:left-[49%] md:top-[0%] lg:left-[39%] lg:top-[14%] ">
+          <div className="absolute left-[53%] top-[0%] h-fit w-fit rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white transition-all duration-500 sm:left-[61%] md:left-[49%] md:top-[0%] lg:left-[39%] lg:top-[14%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">Tailwind</p>
           </div>
-          <div className="absolute left-[53%] top-[25%] h-fit w-[1px] rounded-3xl text-[40px] text-white transition-all duration-500 sm:left-[61%] md:left-[67%] md:top-[25%] md:w-fit lg:top-[7%] ">
+          <div className="absolute left-[53%] top-[25%] h-fit w-[1px] rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white transition-all duration-500 sm:left-[61%] md:left-[67%] md:top-[25%] md:w-fit lg:top-[7%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">React Native</p>
           </div>
-          <div className="absolute  left-[53%] top-[61%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 sm:left-[61%] md:left-[63%] md:top-[63%] lg:left-[75%] ">
+          <div className="absolute  left-[53%] top-[61%] h-fit w-fit rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white transition-all duration-500 sm:left-[61%] md:left-[63%] md:top-[63%] lg:left-[75%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">mongoDB</p>
           </div>
-          <div className="absolute  left-[53%] top-[93%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 sm:left-[61%] md:left-[55%] md:top-[89%] lg:left-[53%] ">
+          <div className="absolute  left-[53%] top-[93%] h-fit w-fit rounded-3xl text-[33px] sm:text-[40px] lg:text-[45px] text-white transition-all duration-500 sm:left-[61%] md:left-[55%] md:top-[89%] lg:left-[53%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
             <p className="leading-none">Redux</p>
           </div>

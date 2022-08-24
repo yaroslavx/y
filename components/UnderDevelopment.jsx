@@ -1,14 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ProjectItem from "./ProjectsItem";
-import postyImg from "../public/assets/projects/posty.png";
 import booking2 from "../public/assets/projects/booking2.png";
-import streamImg1 from "../public/assets/projects/stream7.png";
-import vidsImg from "../public/assets/projects/vids5.png";
-import vidsImg1 from "../public/assets/projects/vids3.png";
-import weatherImg from "../public/assets/projects/weather.png";
-import upmiImg from "../public/assets/projects/upmi.png";
+
 import { IoIosAddCircle, IoIosAddCircleOutline } from "react-icons/io";
 
 // from-gray-500 via-gray-400 to-gray-700
@@ -35,7 +29,7 @@ const UnderDevelopment = () => {
             h="h-[250px] md:h-[250px] lg:h-[525px]"
             buttonColor=""
           />
-                    <Link href={"/booking"}>
+          <Link href={"/booking"}>
             <div className="group relative">
               <IoIosAddCircle
                 className={`absolute right-2 bottom-2 h-9 w-9 cursor-pointer text-black/20 transition-colors duration-200 ease-in-out group-hover:text-transparent`}
