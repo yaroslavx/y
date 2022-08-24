@@ -102,7 +102,7 @@ const property = () => {
             </div>
           </div>
 
-          <div className="relative  col-span-2 mx-auto h-[340px] w-[170px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
+          <div className="relative  col-span-4 mx-auto  rounded-3xl shadow-2xl dark:shadow-none h-[500px] w-[250px] md:col-span-3 lg:col-span-3">
             <Image
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"
@@ -112,7 +112,7 @@ const property = () => {
               alt="/"
             />
           </div>
-          <div className="relative col-span-2 mx-auto h-[340px] w-[170px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
+          <div className="relative col-span-4 mx-auto  rounded-3xl shadow-2xl dark:shadow-none h-[500px] w-[250px] md:col-span-3 lg:col-span-3">
             <Image
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"
