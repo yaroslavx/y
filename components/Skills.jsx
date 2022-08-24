@@ -36,7 +36,7 @@ const Skills = () => {
           </div>
           <div className="absolute  left-[53%] top-[61%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 sm:left-[61%] md:left-[63%] md:top-[63%] lg:left-[75%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>
-            <p className="leading-none">Firebase</p>
+            <p className="leading-none">mongoDB</p>
           </div>
           <div className="absolute  left-[53%] top-[93%] h-fit w-fit rounded-3xl text-[40px] text-white transition-all duration-500 sm:left-[61%] md:left-[55%] md:top-[89%] lg:left-[53%] ">
             <div className="mb-4 h-1 w-10 bg-white"></div>

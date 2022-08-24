@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub } from "react-icons/fa";
-import {BsTelegram} from "react-icons/bs"
+import { BsTelegram } from "react-icons/bs";
 
 const resume = () => {
   return (
@@ -42,21 +42,50 @@ const resume = () => {
             problem-solving skills. Effective and proven track record of
             critical thinking, idea generation, and optimizing efficiencies.
           </p>
+          <h5 className=" text-center text-[21px] font-semibold">
+          I can do:
+            </h5>
+          <p className="">Good communication</p>
+          <p className="">Teamwork </p>
+          <p className="">Creativity and willingness to learn</p>
+          <p className="">Problem-solving </p>
 
           {/* Skills */}
           <div className="mt-5 text-center">
             <h5 className=" text-center text-[21px] font-semibold">
               Technical Skills
             </h5>
-            <p className="mt-1">
-              React Next.js React Native TypeScript Git Firebase GitLab GitHub REST API Redux Recoil Tailwind
-            </p>
+            <div className="mt-1 w-full ">
+              <p className="text-start">
+                Frameworks: React, NextJs, React Native
+              </p>
+              <p className="text-start">
+                Styling: Styled Components, Tailwind, CSS
+              </p>
+              <p className="text-start">
+                Tool/Methods: TypeScript, Redux, Recoil, React-router, HOC
+              </p>
+              <p className="text-start">Testing: Jest, React Testing Library</p>
+              <p className="text-start">
+                Backend (Basics): Express, NodeJs, NextJs
+              </p>
+              <p className="text-start">Database Systems: mongoDB, Firabase</p>
+              <p className="text-start">
+                Miscellaneous: git (GitLab GitHub), SOLID, Linux Terminal
+              </p>
+              <p className="mt-3 text-start">
+                Experience writing applications with REST API
+              </p>
+              <p className="text-start">
+                Good knowledge of available NPM modules
+              </p>
+            </div>
           </div>
           <div className="mt-5 text-center">
             <h5 className=" text-center text-[21px] font-semibold">
               Other Skills
             </h5>
-            <p className="mt-1">Figma Photoshop Illustrator Autocad</p>
+            <p className="mt-1">Figma Illustrator Photoshop</p>
           </div>
 
           <h5 className="mt-5 text-center text-[21px] font-semibold">
@@ -72,7 +101,9 @@ const resume = () => {
                 May 2021 – July 2022, Saint-Petersburg, Russia
               </span>
             </p>
-            <p>Managing process of creating educational content.</p>
+            <p>
+              Managing process of creating educational content in informatics.
+            </p>
 
             <p className="mt-3">
               <span className="text-[19px]  font-semibold">
@@ -89,7 +120,7 @@ const resume = () => {
               Managing process of students education, help with theoretical
               problems over informatics.
             </p>
-
+            {/* 
             <p className="mt-3">
               <span className="text-[19px]  font-semibold">
                 Audit of online school
@@ -119,20 +150,18 @@ const resume = () => {
             </p>
             <p>
               Creating educational content for printing. Creating presentations.
-            </p>
+            </p> */}
           </div>
 
           <div className="mt-5 text-center">
-            <h5 className="text-center text-[21px] font-semibold">
-              Образование
-            </h5>
+            <h5 className="text-center text-[21px] font-semibold">Education</h5>
             <p className="mt-2 text-start">
               <span className="text-[19px] font-semibold">
                 Saint Petersburg Mining University
               </span>
             </p>
             <p className="text-start font-medium">
-              3rd course of Information technologies in management.{" "}
+              4rd course of Information technologies in management.{" "}
               <span className="text-gray-500">Saint-Petersburg, Russia</span>
             </p>
           </div>
@@ -149,15 +178,17 @@ const resume = () => {
               Contacts
             </p>
             <p className="mt-1">yakupov.yaroslav@icloud.com</p>
-           <a href="https://t.me/yaroslavxx" className="mx-auto flex w-fit items-center mt-1">
-              
-              <div className=" bg-white ml-2 p-0.5 rounded-lg mr-1.5">
-              <BsTelegram className="h-[22px] w-[22px] cursor-pointer text-[#0088cc]" />
-              </div>@yaroslavxx
+            <a
+              href="https://t.me/yaroslavxx"
+              className="mx-auto mt-1 flex w-fit items-center"
+            >
+              <div className=" ml-2 mr-1.5 rounded-lg bg-white p-0.5">
+                <BsTelegram className="h-[22px] w-[22px] cursor-pointer text-[#0088cc]" />
+              </div>
+              @yaroslavxx
             </a>
-            
-            <p className="mt-1.5">+7 922 930 94 05</p>
 
+            <p className="mt-1.5">+7 922 930 94 05</p>
           </div>
         </div>
       </div>
