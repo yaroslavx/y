@@ -96,6 +96,16 @@ const property = () => {
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"
               objectFit="cover"
+              src={booking3}
+              priority
+              alt="/"
+            />
+          </div>
+          <div className="relative h-[500px] mx-auto w-full shadow-2xl dark:shadow-none col-span-4 md:col-span-6 rounded-3xl lg:col-span-11">
+            <Image
+              className="absolute top-0 left-0 rounded-3xl"
+              layout="fill"
+              objectFit="cover"
               src={booking1}
               priority
               alt="/"
@@ -107,16 +117,6 @@ const property = () => {
               layout="fill"
               objectFit="cover"
               src={booking4}
-              priority
-              alt="/"
-            />
-          </div>
-          <div className="relative h-[500px] mx-auto w-full shadow-2xl dark:shadow-none col-span-4 md:col-span-6 rounded-3xl lg:col-span-11">
-            <Image
-              className="absolute top-0 left-0 rounded-3xl"
-              layout="fill"
-              objectFit="cover"
-              src={booking3}
               priority
               alt="/"
             />
