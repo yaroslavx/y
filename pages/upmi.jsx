@@ -29,13 +29,13 @@ const property = () => {
         </a>
       </div>
 
-      <div className="m-auto bg-white dark:bg-black pb-[222px]">
+      <div className="m-auto bg-white pb-[222px] dark:bg-black">
         <p className="mx-4 w-fit bg-gradient-to-l from-stone-400 via-green-400 to-sky-600 bg-clip-text px-7 pt-9 pb-5 text-[48px] font-semibold text-transparent sm:mx-5 sm:text-[56px] md:mx-7 lg:mx-9">
           UPMI
         </p>
-        <div className=" mx-4 grid gap-4 sm:mx-5 sm:gap-5 md:mx-7  md:grid-cols-6 lg:grid-cols-11 md:gap-7 lg:mx-9 lg:gap-9">
+        <div className=" mx-4 grid gap-4 sm:mx-5 sm:gap-5 md:mx-7  md:grid-cols-6 md:gap-7 lg:mx-9 lg:grid-cols-11 lg:gap-9">
           <div className="col-span-4 md:col-span-4 lg:col-span-3">
-            <div className="relative h-fit rounded-3xl bg-gradient-to-tl from-green-400 to-sky-600 px-7 py-9  dark:bg-black ">
+            <div className="relative h-full rounded-3xl bg-gradient-to-tl from-green-400 to-sky-600 px-7 py-9  dark:bg-black ">
               <p className="text-[21px] font-semibold text-white dark:text-[white]">
                 Overview
               </p>
@@ -50,7 +50,7 @@ const property = () => {
                   />
                 </div>
               </Link>
-              <p className="flex text-[19px] font-medium text-white dark:text-[white]">
+              <p className="mb-[77px] flex text-[19px] font-medium text-white dark:text-[white]">
                 Upmi is a platform where those who drive and deliver can connect
                 with riders, eaters, and restaurants. In cities where Upmi is
                 available, you can use the Upmi app to request a ride. When a
@@ -58,7 +58,7 @@ const property = () => {
                 estimated time of arrival for the driver heading to your pickup
                 location.
               </p>
-              <div className="mt-9 flex">
+              <div className="absolute bottom-[26px] mt-9 flex">
                 <a
                   href="https://github.com/yaroslavx/upmi"
                   target="_blank"
@@ -68,28 +68,41 @@ const property = () => {
                     Code
                   </div>
                 </a>
-                <a
-                  href="https://streaming-app-yaroslavx.vercel.app/login"
-                  target="_blank"
-                  rel="noreferrer"
-                ></a>
               </div>
             </div>
           </div>
-          <div className="col-span-4  h-fit rounded-3xl bg-[#f4f4f4] dark:bg-[#151516] md:col-span-2 lg:col-span-2">
-            <div className="px-7 py-9">
-              <p className="text-[21px] font-semibold text-black dark:text-white">
-                Tech Stack
-              </p>
-              <div className="flex">
-                <p className="flex text-[19px] font-medium text-black dark:text-white">
-                  React Native, Google API, Redux, Tailwind
+          <div className="col-span-4 md:col-span-2">
+            <div className="h-fit rounded-3xl bg-[#f4f4f4] dark:bg-[#151516]">
+              <div className="px-7 py-9">
+                <p className="text-[21px] font-semibold text-black dark:text-white">
+                  Tech Stack
                 </p>
+                <div className="flex">
+                  <p className="flex text-[19px]  font-medium text-black/70 dark:text-white/70">
+                    React Native, Google API, Redux, Tailwind
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-4 sm:mt-5 md:mt-7 lg:mt-9 h-fit rounded-3xl bg-[#f4f4f4] dark:bg-[#151516]">
+              <div className="px-7 py-9">
+                <p className="text-[21px] font-semibold text-black dark:text-white">
+                  Features
+                </p>
+                <div className="flex">
+                  <p className="flex text-[19px] break-all font-medium text-black/70 dark:text-white/70">
+                    Google API,
+                    React Native Navigation,
+                    Google Autocomplete,
+                    Directions API,
+                    Xcode
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="relative  h-[380px] sm:h-[500px] mx-auto w-[190px] sm:w-[250px] col-span-2 md:col-span-3 rounded-3xl shadow-2xl dark:shadow-none lg:col-span-3">
+          <div className="relative  col-span-2 mx-auto h-[380px] w-[190px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
             <Image
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"
@@ -99,7 +112,7 @@ const property = () => {
               alt="/"
             />
           </div>
-          <div className="relative h-[380px] sm:h-[500px] mx-auto w-[190px] sm:w-[250px] shadow-2xl dark:shadow-none col-span-2 md:col-span-3 rounded-3xl lg:col-span-3">
+          <div className="relative col-span-2 mx-auto h-[380px] w-[190px] rounded-3xl shadow-2xl dark:shadow-none sm:h-[500px] sm:w-[250px] md:col-span-3 lg:col-span-3">
             <Image
               className="absolute top-0 left-0 rounded-3xl"
               layout="fill"
@@ -109,9 +122,7 @@ const property = () => {
               alt="/"
             />
           </div>
-
         </div>
-        
       </div>
     </div>
   );

@@ -10,8 +10,8 @@ import { SiFirebase } from "react-icons/si";
 
 const property = () => {
   return (
-    <div className="w-full pt-[77px] dark:bg-black">
-      <div className="relative h-[50vh] bg-white mx-4 dark:bg-black sm:mx-5 md:mx-7 lg:mx-9">
+    <div className="w-full pt-[77px] pb-[222px]  dark:bg-black">
+      <div className="relative mx-4 h-[50vh] bg-white dark:bg-black sm:mx-5 md:mx-7 lg:mx-9">
         <a href="https://yaroslavx.github.io/vids/">
           <div className="absolute top-0 left-0 z-10 h-[50vh] w-full" />
           <div className="relative h-full w-full">
@@ -28,20 +28,20 @@ const property = () => {
       </div>
 
       <div className="m-auto bg-white dark:bg-black">
-        <p className="mx-4 w-fit  bg-gradient-to-tr from-slate-500 to-yellow-100 bg-clip-text px-7 pt-9 pb-5 text-[48px] sm:text-[56px] font-semibold text-transparent sm:mx-5 md:mx-7 lg:mx-9">
+        <p className="mx-4 w-fit  bg-gradient-to-tr from-slate-500 to-yellow-100 bg-clip-text px-7 pt-9 pb-5 text-[48px] font-semibold text-transparent sm:mx-5 sm:text-[56px] md:mx-7 lg:mx-9">
           Vids
         </p>
-        <div className=" grid gap-4 md:gap-7 lg:gap-9 mx-4 md:grid-cols-5  sm:gap-5 sm:mx-5 md:mx-7 lg:mx-9">
+        <div className=" mx-4 grid gap-4 sm:mx-5 sm:gap-5 md:mx-7  md:grid-cols-5 md:gap-7 lg:mx-9 lg:gap-9">
           <div className="col-span-4 md:col-span-3">
             <div
               style={{
                 background:
                   "conic-gradient(at top,  rgb(254, 249, 195), rgb(100, 116, 139))",
               }}
-              className="relative h-fit rounded-3xl bg-gradient-to-tl from-sky-700 via-amber-300 to-stone-400 px-7  py-9 dark:bg-black "
+              className="relative h-full rounded-3xl bg-gradient-to-tl from-sky-700 via-amber-300 to-stone-400 px-7  py-9 dark:bg-black "
             >
               <p className="text-[21px] font-semibold text-white dark:text-[white]">
-              Overview
+                Overview
               </p>
               <Link href="/#projects">
                 {/* <IoIosCloseCircle className=" absolute right-2 top-2 h-9 w-9 cursor-pointer text-white duration-200 transition-colors ease-in-out hover:text-gray-100" /> */}
@@ -54,11 +54,11 @@ const property = () => {
                   />
                 </div>
               </Link>
-              <p className="flex text-[19px] font-medium text-white dark:text-[white]">
+              <p className="mb-[77px] flex text-[19px]  font-medium text-white dark:text-[white]">
                 Vids is a video-gallery website that allows you to view some
                 nice videos.
               </p>
-              <div className="mt-9 flex">
+              <div className="absolute bottom-[26px] mt-9 flex">
                 <a
                   href="https://github.com/yaroslavx/vids"
                   target="_blank"
@@ -73,22 +73,36 @@ const property = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="  rounded-full border-[2px] border-white p-1.5 px-4 font-medium text-white">
+                  <div className="rounded-full border-[2px] border-white p-1.5 px-4 font-medium text-white">
                     Demo
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-span-4 mb-[222px] h-fit rounded-3xl bg-[#f4f4f4] dark:bg-[#151516] md:col-span-2">
-            <div className="px-7 py-9">
-              <p className="text-[21px] font-semibold text-black dark:text-white">
-                Tech Stack
-              </p>
-              <div className="flex">
-                <p className="flex text-[19px] font-medium text-black dark:text-white">
-                  React, Vimeo API
+          <div className="col-span-4 md:col-span-2 ">
+            <div className="h-fit rounded-3xl bg-[#f4f4f4] dark:bg-[#151516]">
+              <div className="px-7 py-9">
+                <p className="text-[21px] font-semibold text-black dark:text-white">
+                  Tech Stack
                 </p>
+                <div className="flex">
+                  <p className="flex text-[19px] font-medium text-black/70 dark:text-white/70">
+                    React, Vimeo API
+                  </p>
+                </div>
+              </div>
+            </div>{" "}
+            <div className="mt-4 sm:mt-5 md:mt-7 lg:mt-9 h-fit rounded-3xl bg-[#f4f4f4] dark:bg-[#151516]">
+              <div className="px-7 py-9">
+                <p className="text-[21px] font-semibold text-black dark:text-white">
+                Features
+                </p>
+                <div className="flex">
+                  <p className="flex text-[19px] font-medium text-black/70 dark:text-white/70">
+                    Main page animation
+                  </p>
+                </div>
               </div>
             </div>
           </div>
