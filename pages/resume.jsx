@@ -69,7 +69,7 @@ const resume = () => {
               <p className="text-start">
                 Backend (Basics): Express, NodeJs, NextJs
               </p>
-              <p className="text-start">Database Systems: mongoDB, Firabase</p>
+              <p className="text-start">Database Systems: mongoDB, Firebase</p>
               <p className="text-start">
                 Miscellaneous: git (GitLab GitHub), SOLID, Linux Terminal
               </p>
