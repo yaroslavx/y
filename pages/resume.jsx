@@ -42,9 +42,7 @@ const resume = () => {
             problem-solving skills. Effective and proven track record of
             critical thinking, idea generation, and optimizing efficiencies.
           </p>
-          <h5 className=" text-center text-[21px] font-semibold">
-          I can do:
-            </h5>
+          <h5 className=" text-center text-[21px] font-semibold">I can do:</h5>
           <p className="">Good communication</p>
           <p className="">Teamwork </p>
           <p className="">Creativity and willingness to learn</p>
@@ -66,12 +64,10 @@ const resume = () => {
                 Tool/Methods: TypeScript, Redux, Recoil, React-router, HOC
               </p>
               <p className="text-start">Testing: Jest, React Testing Library</p>
-              <p className="text-start">
-                Backend (Basics): Express, NodeJs, NextJs
-              </p>
+              <p className="text-start">Backend (Basics): Express, NodeJs</p>
               <p className="text-start">Database Systems: mongoDB, Firebase</p>
               <p className="text-start">
-                Miscellaneous: git (GitLab GitHub), SOLID, Linux Terminal
+                Miscellaneous: git, SOLID, Linux Terminal
               </p>
               <p className="mt-3 text-start">
                 Experience writing applications with REST API
@@ -177,6 +173,12 @@ const resume = () => {
             <p className="mt-1 text-center text-[21px] font-semibold">
               Contacts
             </p>
+            <a
+              href="https://drive.google.com/file/d/1hvG72BS-fsRZh04eb8EDENnULyIcKtXY/view?usp=sharing"
+              className="mt-1"
+            >
+              Resume.pdf
+            </a>
             <p className="mt-1">yakupov.yaroslav@icloud.com</p>
             <a
               href="https://t.me/yaroslavxx"
