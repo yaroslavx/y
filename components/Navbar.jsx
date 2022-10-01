@@ -65,10 +65,7 @@ const Navbar = () => {
         <div className="flex items-center ">
           <ThemeChanger className="" />
           <div className="ml-3 ">
-            <ul
-              style={{ color: `${linkColor}` }}
-              className="hidden md:flex "
-            >
+            <ul style={{ color: `${linkColor}` }} className="hidden md:flex ">
               <Link href="/">
                 <li className=" rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Home
@@ -89,11 +86,20 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              <a
+                href="https://drive.google.com/file/d/1qaQOY-Pr6m30wBl24gTojZWdRYxfzsi4/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Resume
                 </li>
-              </Link>
+              </a>
+              {/* <Link href="/resume">
+                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
+                  Resume
+                </li>
+              </Link> */}
               <Link href="/#contact">
                 <li className="ml-3 mr-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Contact

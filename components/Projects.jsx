@@ -19,11 +19,11 @@ const Projects = () => {
       id="projects"
       className="w-full bg-[#f5f5f7] pt-4  dark:bg-[#0c0c0c] dark:text-white md:pt-5"
     >
-      <p className="mx-4 w-fit bg-gradient-radial-at-br from-fuchsia-600 via-violet-900 to-blue-700 bg-clip-text px-7 pt-9 pb-4 text-[48px] font-semibold text-transparent sm:text-[56px]  sm:mx-5 md:mx-7 lg:mx-9">
+      <p className="mx-4 w-fit bg-gradient-radial-at-br from-fuchsia-600 via-violet-900 to-blue-700 bg-clip-text px-7 pt-9 pb-4 text-[48px] font-semibold text-transparent sm:mx-5  sm:text-[56px] md:mx-7 lg:mx-9">
         Projects
       </p>
 
-      <div className="mx-4 grid gap-4 sm:gap-5 md:gap-7 lg:gap-9 bg-[#f5f5f7] dark:bg-[#0c0c0c] sm:mx-5 md:mx-7 lg:mx-9 md:grid-flow-col md:grid-cols-2   md:grid-rows-4  lg:grid-cols-4 lg:grid-rows-2">
+      <div className="mx-4 grid gap-4 bg-[#f5f5f7] dark:bg-[#0c0c0c] sm:mx-5 sm:gap-5 md:mx-7 md:grid-flow-col md:grid-cols-2 md:grid-rows-4 md:gap-7 lg:mx-9   lg:grid-cols-4  lg:grid-rows-2 lg:gap-9">
         <div className="hidden rounded-3xl text-center text-white md:col-span-2 md:row-span-1  md:row-start-1 lg:col-span-1 lg:row-span-2 lg:row-start-1 lg:inline">
           <ProjectItem
             title="Stream"
@@ -70,7 +70,7 @@ const Projects = () => {
             </div>
           </Link>
         </div>
-        <div className="rounded-3xl lg:-mt-[11px] text-center text-white md:row-span-1 md:row-start-3 lg:col-span-1 lg:row-span-1 lg:row-start-2">
+        <div className="rounded-3xl text-center text-white md:row-span-1 md:row-start-3 lg:col-span-1 lg:row-span-1 lg:row-start-2 lg:-mt-[11px]">
           <ProjectItem
             title="Weather App"
             description=""
@@ -108,10 +108,10 @@ const Projects = () => {
         </div>
         <div className="rounded-3xl text-center text-white md:col-span-1 md:row-span-2  md:row-start-2 md:mx-auto lg:col-span-1 lg:row-span-2 lg:row-start-1">
           <div className="relative flex h-[525px] rounded-3xl bg-transparent ">
-            <p className="absolute right-[250px] top-[140px] bg-gradient-to-l from-green-600 via-green-400 to-sky-600 bg-clip-text py-3 text-4xl font-semibold text-transparent sm:right-[286px] sm:text-[48px] md:-top-2 md:left-0 md:text-[25px]">
+            <p className="absolute right-[250px] top-[140px] bg-gradient-to-l from-green-600 via-green-400 to-sky-600 bg-clip-text py-3 text-4xl font-semibold sm:right-[286px] sm:text-[48px] md:-top-2 md:left-0 md:text-[25px]">
               UPMI
             </p>
-            <p className="absolute right-[250px] break-all top-[171px] mt-8 py-3 text-end text-[19px] font-medium text-black dark:text-[white] sm:right-[286px] md:hidden">
+            <p className="absolute right-[250px] top-[171px] mt-8 break-all py-3 text-end text-[19px] font-medium text-black dark:text-[white] sm:right-[286px] md:hidden">
               All-new app that allows you to take a ride
             </p>
             <Link href={"/upmi"}>
