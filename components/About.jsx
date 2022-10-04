@@ -10,11 +10,11 @@ function About() {
       id="about"
       className="w-full items-center bg-[#f5f5f7] pt-4 dark:bg-[#0c0c0c] md:pt-5"
     >
-      <p className="mx-4 w-fit bg-gradient-to-br from-[#fd3a50] via-[#f95a5a] to-[#faa040] bg-clip-text px-7 pt-9 pb-4 text-[48px] font-semibold  text-transparent sm:text-[56px] sm:mx-5 md:mx-7 lg:mx-9">
+      <p className="mx-4 w-fit bg-gradient-to-br from-[#fd3a50] via-[#f95a5a] to-[#faa040] bg-clip-text px-7 pt-9 pb-4 text-[48px] font-semibold  text-transparent sm:mx-5 sm:text-[56px] md:mx-7 lg:mx-9">
         About
       </p>
-      <div className="m-auto mx-4 grid grid-rows-2 gap-y-4 sm:gap-y-5 sm:mx-5 md:mx-7 lg:mx-9 md:grid-cols-3 md:grid-rows-1 sm:gap-x-5 md:gap-x-7 lg:gap-x-9">
-        <Link href="/resume">
+      <div className="m-auto mx-4 grid grid-rows-2 gap-y-4 sm:mx-5 sm:gap-y-5 sm:gap-x-5 md:mx-7 md:grid-cols-3 md:grid-rows-1 md:gap-x-7 lg:mx-9 lg:gap-x-9">
+        <Link href="https://drive.google.com/file/d/1qaQOY-Pr6m30wBl24gTojZWdRYxfzsi4/view?usp=sharing">
           <div className="relative rounded-3xl bg-gradient-to-br from-[#fd3a50] via-[#f95a5a] to-[#faa040] px-7 py-9 dark:bg-[#121212] dark:text-white md:col-span-2">
             <p className="text-[21px] font-semibold text-white dark:text-[white]">
               Who I Am

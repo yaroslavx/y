@@ -86,20 +86,12 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <a
-                href="https://drive.google.com/file/d/1qaQOY-Pr6m30wBl24gTojZWdRYxfzsi4/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <Link href="https://drive.google.com/file/d/1qaQOY-Pr6m30wBl24gTojZWdRYxfzsi4/view?usp=sharing">
                 <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Resume
                 </li>
-              </a>
-              {/* <Link href="/resume">
-                <li className="ml-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
-                  Resume
-                </li>
-              </Link> */}
+              </Link>
+
               <Link href="/#contact">
                 <li className="ml-3 mr-3 rounded-xl p-2 text-[14px] text-black transition-all duration-300 ease-in-out hover:bg-white dark:text-white dark:hover:bg-black/20">
                   Contact
