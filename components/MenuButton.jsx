@@ -49,7 +49,7 @@ export default function MenuButton() {
         <Link href="/#projects">
           <MenuItem onClick={handleClose}>Projects</MenuItem>
         </Link>
-        <Link href="/resume">
+        <Link href="https://drive.google.com/file/d/1qaQOY-Pr6m30wBl24gTojZWdRYxfzsi4/view?usp=sharing">
           <MenuItem onClick={handleClose}>Resume</MenuItem>
         </Link>
         <Link href="/#contact">
