@@ -68,7 +68,7 @@ const Contact = () => {
                     <FaTelegramPlane className="h-5 w-5 text-white" />
                   </div>
                 </a>
-                <Link href="/resume">
+                <Link href="https://drive.google.com/file/d/1qaQOY-Pr6m30wBl24gTojZWdRYxfzsi4/view?usp=sharing">
                   <a>
                     <div className="cursor-pointer  rounded-full border-[2px] border-white p-2 px-7 font-medium text-white">
                       <AiOutlinePaperClip className="h-5 w-5 text-white" />
